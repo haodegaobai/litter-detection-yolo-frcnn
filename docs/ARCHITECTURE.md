@@ -65,7 +65,7 @@ The comparison is only meaningful if both models receive the same problem:
 | `runs/yolo/best.pt` | YOLO11n fine-tuned on the 1500-image TACO split at 640 px. | Committed to Git. |
 | `runs/yolo_scene/best.pt` | YOLO11n further fine-tuned with campus negative frames for the demo. | Committed to Git. |
 | `yolo11n.pt` | COCO-pretrained YOLO11n used for the person-veto head. | Committed to Git. |
-| `runs/frcnn/best.pt` | Faster R-CNN MobileNetV3-Large FPN, 12-epoch reported schedule. | GitHub Release asset. |
+| `runs/frcnn/best.pt` | Faster R-CNN MobileNetV3-Large FPN, 12-epoch reported schedule. | [GitHub Release asset](https://github.com/haodegaobai/litter-detection-yolo-frcnn/releases/tag/v1.0.0). |
 | `runs/results/eval_frcnn_run1.json` | First Faster R-CNN schedule, retained for audit. | Committed as JSON only. |
 
 ## Important invariants
