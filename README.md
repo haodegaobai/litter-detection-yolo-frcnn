@@ -137,8 +137,9 @@ pip install -r requirements.txt
 ```
 
 The YOLO checkpoints are included in the repository. The 76 MB Faster R-CNN
-checkpoint is a GitHub Release asset; download it to `runs/frcnn/best.pt` if you
-want to run the two-stage demo.
+checkpoint is attached to the [v1.0.0 Release](https://github.com/haodegaobai/litter-detection-yolo-frcnn/releases/tag/v1.0.0);
+download [`best.pt`](https://github.com/haodegaobai/litter-detection-yolo-frcnn/releases/download/v1.0.0/best.pt)
+to `runs/frcnn/best.pt` if you want to run the two-stage demo.
 
 The pinned PyTorch version is the one used for the reported numbers. On a CUDA
 machine, install the matching PyTorch wheel first, then install the remaining
