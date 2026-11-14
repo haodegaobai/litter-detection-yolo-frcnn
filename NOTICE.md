@@ -38,8 +38,8 @@ repository is released under AGPL-3.0 accordingly.
 - **Repository:** https://github.com/pytorch/vision
 
 The Faster R-CNN implementation and the MobileNetV3-Large FPN backbone come from
-torchvision. The reported Faster R-CNN checkpoint is distributed as a GitHub
-Release asset.
+torchvision. The reported Faster R-CNN checkpoint is distributed as a
+[GitHub Release asset](https://github.com/haodegaobai/litter-detection-yolo-frcnn/releases/tag/v1.0.0).
 
 ## Demo footage and screenshots
 
