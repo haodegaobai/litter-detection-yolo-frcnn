@@ -1,0 +1,34 @@
+{
+  "campus": {
+    "frames": 55,
+    "conf_0.25": {
+      "boxes": 2,
+      "per_frame": 0.036,
+      "frames_with_any": 2
+    },
+    "conf_0.50": {
+      "boxes": 1,
+      "per_frame": 0.018,
+      "frames_with_any": 1
+    },
+    "by_class_conf_0.25": {
+      "other": 1,
+      "plastic": 1
+    }
+  },
+  "taco_test": {
+    "frames": 225,
+    "conf_0.25": {
+      "boxes": 461,
+      "per_frame": 2.049,
+      "frames_with_any": 204
+    },
+    "conf_0.50": {
+      "boxes": 271,
+      "per_frame": 1.204,
+      "frames_with_any": 167
+    }
+  },
+  "ratio_conf_0.25": 56.9,
+  "note": "No ground truth: this measures response, not accuracy. The footage was inspected and contains no visible litter, so a detection on it is a false positive -- but that is a human judgement, not a label."
+}

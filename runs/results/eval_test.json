@@ -1,0 +1,596 @@
+{
+  "split": "test",
+  "tag": "test",
+  "n_images": 225,
+  "n_instances": 764,
+  "classes": [
+    "plastic",
+    "paper_cardboard",
+    "metal",
+    "glass",
+    "cigarette",
+    "other"
+  ],
+  "models": {
+    "YOLO11n": {
+      "map": {
+        "mAP_0.5:0.95": 0.1344,
+        "mAP_0.5": 0.1806,
+        "mAP_0.75": 0.146,
+        "mAP_small": 0.0551,
+        "mAP_medium": 0.0865,
+        "mAP_large": 0.2264,
+        "per_class_AP": {
+          "plastic": 0.2429,
+          "paper_cardboard": 0.2103,
+          "metal": 0.3194,
+          "glass": 0.0014,
+          "cigarette": 0.0195,
+          "other": 0.0129
+        }
+      },
+      "pr": {
+        "0.10": {
+          "conf": 0.1,
+          "iou": 0.5,
+          "precision": 0.2646,
+          "recall": 0.2958,
+          "f1": 0.2794,
+          "tp": 226,
+          "fp": 628,
+          "fn": 538,
+          "per_class": {
+            "plastic": {
+              "precision": 0.4095,
+              "recall": 0.423,
+              "tp": 129,
+              "fp": 186,
+              "n_gt": 305
+            },
+            "paper_cardboard": {
+              "precision": 0.3248,
+              "recall": 0.4935,
+              "tp": 38,
+              "fp": 79,
+              "n_gt": 77
+            },
+            "metal": {
+              "precision": 0.3723,
+              "recall": 0.4545,
+              "tp": 35,
+              "fp": 59,
+              "n_gt": 77
+            },
+            "glass": {
+              "precision": 0.0435,
+              "recall": 0.0116,
+              "tp": 1,
+              "fp": 22,
+              "n_gt": 86
+            },
+            "cigarette": {
+              "precision": 0.0699,
+              "recall": 0.1057,
+              "tp": 13,
+              "fp": 173,
+              "n_gt": 123
+            },
+            "other": {
+              "precision": 0.084,
+              "recall": 0.1042,
+              "tp": 10,
+              "fp": 109,
+              "n_gt": 96
+            }
+          }
+        },
+        "0.25": {
+          "conf": 0.25,
+          "iou": 0.5,
+          "precision": 0.4121,
+          "recall": 0.2487,
+          "f1": 0.3102,
+          "tp": 190,
+          "fp": 271,
+          "fn": 574,
+          "per_class": {
+            "plastic": {
+              "precision": 0.5455,
+              "recall": 0.3738,
+              "tp": 114,
+              "fp": 95,
+              "n_gt": 305
+            },
+            "paper_cardboard": {
+              "precision": 0.3804,
+              "recall": 0.4545,
+              "tp": 35,
+              "fp": 57,
+              "n_gt": 77
+            },
+            "metal": {
+              "precision": 0.5254,
+              "recall": 0.4026,
+              "tp": 31,
+              "fp": 28,
+              "n_gt": 77
+            },
+            "glass": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 14,
+              "n_gt": 86
+            },
+            "cigarette": {
+              "precision": 0.2162,
+              "recall": 0.065,
+              "tp": 8,
+              "fp": 29,
+              "n_gt": 123
+            },
+            "other": {
+              "precision": 0.04,
+              "recall": 0.0208,
+              "tp": 2,
+              "fp": 48,
+              "n_gt": 96
+            }
+          }
+        },
+        "0.40": {
+          "conf": 0.4,
+          "iou": 0.5,
+          "precision": 0.514,
+          "recall": 0.216,
+          "f1": 0.3041,
+          "tp": 165,
+          "fp": 156,
+          "fn": 599,
+          "per_class": {
+            "plastic": {
+              "precision": 0.6038,
+              "recall": 0.3148,
+              "tp": 96,
+              "fp": 63,
+              "n_gt": 305
+            },
+            "paper_cardboard": {
+              "precision": 0.4783,
+              "recall": 0.4286,
+              "tp": 33,
+              "fp": 36,
+              "n_gt": 77
+            },
+            "metal": {
+              "precision": 0.6889,
+              "recall": 0.4026,
+              "tp": 31,
+              "fp": 14,
+              "n_gt": 77
+            },
+            "glass": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 6,
+              "n_gt": 86
+            },
+            "cigarette": {
+              "precision": 0.2727,
+              "recall": 0.0244,
+              "tp": 3,
+              "fp": 8,
+              "n_gt": 123
+            },
+            "other": {
+              "precision": 0.0645,
+              "recall": 0.0208,
+              "tp": 2,
+              "fp": 29,
+              "n_gt": 96
+            }
+          }
+        },
+        "0.55": {
+          "conf": 0.55,
+          "iou": 0.5,
+          "precision": 0.5538,
+          "recall": 0.1819,
+          "f1": 0.2739,
+          "tp": 139,
+          "fp": 112,
+          "fn": 625,
+          "per_class": {
+            "plastic": {
+              "precision": 0.648,
+              "recall": 0.2656,
+              "tp": 81,
+              "fp": 44,
+              "n_gt": 305
+            },
+            "paper_cardboard": {
+              "precision": 0.4912,
+              "recall": 0.3636,
+              "tp": 28,
+              "fp": 29,
+              "n_gt": 77
+            },
+            "metal": {
+              "precision": 0.75,
+              "recall": 0.3506,
+              "tp": 27,
+              "fp": 9,
+              "n_gt": 77
+            },
+            "glass": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 4,
+              "n_gt": 86
+            },
+            "cigarette": {
+              "precision": 0.3333,
+              "recall": 0.0244,
+              "tp": 3,
+              "fp": 6,
+              "n_gt": 123
+            },
+            "other": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 20,
+              "n_gt": 96
+            }
+          }
+        },
+        "0.70": {
+          "conf": 0.7,
+          "iou": 0.5,
+          "precision": 0.6037,
+          "recall": 0.1296,
+          "f1": 0.2134,
+          "tp": 99,
+          "fp": 65,
+          "fn": 665,
+          "per_class": {
+            "plastic": {
+              "precision": 0.7073,
+              "recall": 0.1902,
+              "tp": 58,
+              "fp": 24,
+              "n_gt": 305
+            },
+            "paper_cardboard": {
+              "precision": 0.4615,
+              "recall": 0.2338,
+              "tp": 18,
+              "fp": 21,
+              "n_gt": 77
+            },
+            "metal": {
+              "precision": 0.8214,
+              "recall": 0.2987,
+              "tp": 23,
+              "fp": 5,
+              "n_gt": 77
+            },
+            "glass": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 2,
+              "n_gt": 86
+            },
+            "cigarette": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 1,
+              "n_gt": 123
+            },
+            "other": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 12,
+              "n_gt": 96
+            }
+          }
+        }
+      }
+    },
+    "FasterRCNN": {
+      "map": {
+        "mAP_0.5:0.95": 0.0974,
+        "mAP_0.5": 0.1615,
+        "mAP_0.75": 0.1078,
+        "mAP_small": 0.0003,
+        "mAP_medium": 0.0325,
+        "mAP_large": 0.1544,
+        "per_class_AP": {
+          "plastic": 0.1551,
+          "paper_cardboard": 0.2029,
+          "metal": 0.2122,
+          "glass": 0.0015,
+          "cigarette": 0.0003,
+          "other": 0.0125
+        }
+      },
+      "pr": {
+        "0.10": {
+          "conf": 0.1,
+          "iou": 0.5,
+          "precision": 0.215,
+          "recall": 0.2932,
+          "f1": 0.2481,
+          "tp": 224,
+          "fp": 818,
+          "fn": 540,
+          "per_class": {
+            "plastic": {
+              "precision": 0.2585,
+              "recall": 0.4492,
+              "tp": 137,
+              "fp": 393,
+              "n_gt": 305
+            },
+            "paper_cardboard": {
+              "precision": 0.3148,
+              "recall": 0.4416,
+              "tp": 34,
+              "fp": 74,
+              "n_gt": 77
+            },
+            "metal": {
+              "precision": 0.1702,
+              "recall": 0.5195,
+              "tp": 40,
+              "fp": 195,
+              "n_gt": 77
+            },
+            "glass": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 23,
+              "n_gt": 86
+            },
+            "cigarette": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "n_gt": 123
+            },
+            "other": {
+              "precision": 0.089,
+              "recall": 0.1354,
+              "tp": 13,
+              "fp": 133,
+              "n_gt": 96
+            }
+          }
+        },
+        "0.25": {
+          "conf": 0.25,
+          "iou": 0.5,
+          "precision": 0.4066,
+          "recall": 0.2081,
+          "f1": 0.2753,
+          "tp": 159,
+          "fp": 232,
+          "fn": 605,
+          "per_class": {
+            "plastic": {
+              "precision": 0.4183,
+              "recall": 0.3607,
+              "tp": 110,
+              "fp": 153,
+              "n_gt": 305
+            },
+            "paper_cardboard": {
+              "precision": 0.5294,
+              "recall": 0.2338,
+              "tp": 18,
+              "fp": 16,
+              "n_gt": 77
+            },
+            "metal": {
+              "precision": 0.3372,
+              "recall": 0.3766,
+              "tp": 29,
+              "fp": 57,
+              "n_gt": 77
+            },
+            "glass": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "n_gt": 86
+            },
+            "cigarette": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "n_gt": 123
+            },
+            "other": {
+              "precision": 0.25,
+              "recall": 0.0208,
+              "tp": 2,
+              "fp": 6,
+              "n_gt": 96
+            }
+          }
+        },
+        "0.40": {
+          "conf": 0.4,
+          "iou": 0.5,
+          "precision": 0.5735,
+          "recall": 0.1531,
+          "f1": 0.2417,
+          "tp": 117,
+          "fp": 87,
+          "fn": 647,
+          "per_class": {
+            "plastic": {
+              "precision": 0.5655,
+              "recall": 0.2689,
+              "tp": 82,
+              "fp": 63,
+              "n_gt": 305
+            },
+            "paper_cardboard": {
+              "precision": 0.5625,
+              "recall": 0.1169,
+              "tp": 9,
+              "fp": 7,
+              "n_gt": 77
+            },
+            "metal": {
+              "precision": 0.6047,
+              "recall": 0.3377,
+              "tp": 26,
+              "fp": 17,
+              "n_gt": 77
+            },
+            "glass": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "n_gt": 86
+            },
+            "cigarette": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "n_gt": 123
+            },
+            "other": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "n_gt": 96
+            }
+          }
+        },
+        "0.55": {
+          "conf": 0.55,
+          "iou": 0.5,
+          "precision": 0.6724,
+          "recall": 0.1021,
+          "f1": 0.1773,
+          "tp": 78,
+          "fp": 38,
+          "fn": 686,
+          "per_class": {
+            "plastic": {
+              "precision": 0.679,
+              "recall": 0.1803,
+              "tp": 55,
+              "fp": 26,
+              "n_gt": 305
+            },
+            "paper_cardboard": {
+              "precision": 0.625,
+              "recall": 0.0649,
+              "tp": 5,
+              "fp": 3,
+              "n_gt": 77
+            },
+            "metal": {
+              "precision": 0.6667,
+              "recall": 0.2338,
+              "tp": 18,
+              "fp": 9,
+              "n_gt": 77
+            },
+            "glass": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "n_gt": 86
+            },
+            "cigarette": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "n_gt": 123
+            },
+            "other": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "n_gt": 96
+            }
+          }
+        },
+        "0.70": {
+          "conf": 0.7,
+          "iou": 0.5,
+          "precision": 0.7708,
+          "recall": 0.0484,
+          "f1": 0.0911,
+          "tp": 37,
+          "fp": 11,
+          "fn": 727,
+          "per_class": {
+            "plastic": {
+              "precision": 0.7879,
+              "recall": 0.0852,
+              "tp": 26,
+              "fp": 7,
+              "n_gt": 305
+            },
+            "paper_cardboard": {
+              "precision": 0.6667,
+              "recall": 0.026,
+              "tp": 2,
+              "fp": 1,
+              "n_gt": 77
+            },
+            "metal": {
+              "precision": 0.75,
+              "recall": 0.1169,
+              "tp": 9,
+              "fp": 3,
+              "n_gt": 77
+            },
+            "glass": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "n_gt": 86
+            },
+            "cigarette": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "n_gt": 123
+            },
+            "other": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "n_gt": 96
+            }
+          }
+        }
+      }
+    }
+  }
+}

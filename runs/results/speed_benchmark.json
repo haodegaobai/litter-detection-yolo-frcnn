@@ -1,0 +1,30 @@
+{
+  "device": "cuda",
+  "imgsz": 640,
+  "warmup": 10,
+  "iters": 100,
+  "models": {
+    "YOLO11n": {
+      "mean_ms": 12.34,
+      "p50_ms": 9.69,
+      "p95_ms": 44.01,
+      "min_ms": 8.13,
+      "max_ms": 83.77,
+      "fps": 81.0,
+      "n_iters": 100,
+      "params": 2606098,
+      "weights_mb": 5.5
+    },
+    "FasterRCNN": {
+      "mean_ms": 21.17,
+      "p50_ms": 19.76,
+      "p95_ms": 38.27,
+      "min_ms": 15.66,
+      "max_ms": 44.72,
+      "fps": 47.2,
+      "n_iters": 100,
+      "params": 18980254,
+      "weights_mb": 76.11
+    }
+  }
+}

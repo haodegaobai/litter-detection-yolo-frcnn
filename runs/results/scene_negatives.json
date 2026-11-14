@@ -1,0 +1,26 @@
+{
+  "checkpoints": {
+    "original": {
+      "weights": "runs\\yolo\\best.pt",
+      "mAP_0.5": 0.1806,
+      "mAP_0.5:0.95": 0.1344,
+      "boxes_on_recordings": 32,
+      "boxes_on_litter_clip": 45
+    },
+    "with_negatives": {
+      "weights": "runs\\yolo_scene\\best.pt",
+      "mAP_0.5": 0.1819,
+      "mAP_0.5:0.95": 0.1425,
+      "boxes_on_recordings": 0,
+      "boxes_on_litter_clip": 45
+    }
+  },
+  "n_frames": {
+    "recordings": 116,
+    "litter": 30
+  },
+  "delta": {
+    "mAP_0.5": 0.0013,
+    "boxes_on_recordings": -32
+  }
+}

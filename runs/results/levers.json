@@ -1,0 +1,70 @@
+{
+  "split": "test",
+  "baseline": "baseline \u00b7 yolo11n \u00b7 640",
+  "variants": [
+    {
+      "variant": "baseline \u00b7 yolo11n \u00b7 640",
+      "imgsz": 640,
+      "params": 2606098,
+      "mAP_0.5": 0.1806,
+      "mAP_0.5:0.95": 0.1344,
+      "mAP_small": 0.0551,
+      "precision_0.25": 0.4121,
+      "recall_0.25": 0.2487,
+      "fp_at_0.50": 123,
+      "mean_ms": 10.45,
+      "fps": 95.7,
+      "d_mAP_0.5": 0.0,
+      "d_mAP_small": 0.0,
+      "speed_ratio": 1.0
+    },
+    {
+      "variant": "resolution \u00b7 yolo11n \u00b7 960",
+      "imgsz": 960,
+      "params": 2606098,
+      "mAP_0.5": 0.168,
+      "mAP_0.5:0.95": 0.1201,
+      "mAP_small": 0.0332,
+      "precision_0.25": 0.39,
+      "recall_0.25": 0.2251,
+      "fp_at_0.50": 114,
+      "mean_ms": 10.96,
+      "fps": 91.2,
+      "d_mAP_0.5": -0.0126,
+      "d_mAP_small": -0.0219,
+      "speed_ratio": 1.05
+    },
+    {
+      "variant": "negatives \u00b7 yolo11n \u00b7 640",
+      "imgsz": 640,
+      "params": 2606098,
+      "mAP_0.5": 0.1807,
+      "mAP_0.5:0.95": 0.1347,
+      "mAP_small": 0.044,
+      "precision_0.25": 0.445,
+      "recall_0.25": 0.2435,
+      "fp_at_0.50": 111,
+      "mean_ms": 10.01,
+      "fps": 99.9,
+      "d_mAP_0.5": 0.0001,
+      "d_mAP_small": -0.0111,
+      "speed_ratio": 0.96
+    },
+    {
+      "variant": "capacity \u00b7 yolo11s \u00b7 640",
+      "imgsz": 640,
+      "params": 9430114,
+      "mAP_0.5": 0.1945,
+      "mAP_0.5:0.95": 0.1479,
+      "mAP_small": 0.0493,
+      "precision_0.25": 0.4632,
+      "recall_0.25": 0.2552,
+      "fp_at_0.50": 91,
+      "mean_ms": 10.63,
+      "fps": 94.1,
+      "d_mAP_0.5": 0.0139,
+      "d_mAP_small": -0.0058,
+      "speed_ratio": 1.02
+    }
+  ]
+}

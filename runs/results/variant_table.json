@@ -1,0 +1,42 @@
+{
+  "campus_frames": 55,
+  "litter_frames": 30,
+  "variants": [
+    {
+      "variant": "reported \u00b7 seed 42",
+      "weights": "runs\\yolo\\best.pt",
+      "mAP_0.5": 0.1806,
+      "mAP_0.5:0.95": 0.1344,
+      "fp_per_frame_campus": 0.0,
+      "boxes_on_litter_clip": 45,
+      "d_mAP_0.5": 0.0
+    },
+    {
+      "variant": "seed 7",
+      "weights": "runs\\yolo_seed7\\best.pt",
+      "mAP_0.5": 0.179,
+      "mAP_0.5:0.95": 0.1429,
+      "fp_per_frame_campus": 0.055,
+      "boxes_on_litter_clip": 50,
+      "d_mAP_0.5": -0.0016
+    },
+    {
+      "variant": "+ negatives",
+      "weights": "runs\\yolo_scene\\best.pt",
+      "mAP_0.5": 0.1819,
+      "mAP_0.5:0.95": 0.1425,
+      "fp_per_frame_campus": 0.0,
+      "boxes_on_litter_clip": 45,
+      "d_mAP_0.5": 0.0013
+    },
+    {
+      "variant": "yolo11s",
+      "weights": "runs\\yolo11s\\best.pt",
+      "mAP_0.5": 0.1945,
+      "mAP_0.5:0.95": 0.1479,
+      "fp_per_frame_campus": 0.0,
+      "boxes_on_litter_clip": 35,
+      "d_mAP_0.5": 0.0139
+    }
+  ]
+}

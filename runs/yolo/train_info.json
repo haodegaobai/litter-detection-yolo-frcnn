@@ -1,0 +1,13 @@
+{
+  "epochs_requested": 100,
+  "train_sec": 1155.3,
+  "imgsz": 640,
+  "batch": 16,
+  "seed": 42,
+  "weights": "runs/yolo/best.pt",
+  "run_dir": "runs/yolo",
+  "dataset": {
+    "images": 1500,
+    "objects": 4784
+  }
+}

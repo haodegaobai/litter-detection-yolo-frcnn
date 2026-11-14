@@ -1,0 +1,34 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data and generated outputs
+data/
+report/
+ppt/
+submission/
+runs/web_jobs/
+runs/frcnn/*.pt
+runs/frcnn_run1/
+runs/frcnn_v2/
+runs/yolo11s/
+runs/yolo960/
+runs/yolo_neg/
+runs/yolo_seed7/
+runs/results/preds_*.pt
+demo/raw/
+demo/out_*.mp4
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Local logs and scratch
+*.log
+NVIDIA Corporation/

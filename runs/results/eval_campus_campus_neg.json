@@ -1,0 +1,56 @@
+{
+  "mode": "negative",
+  "n_images": 55,
+  "n_instances": 0,
+  "n_excluded_unreviewed": 0,
+  "classes": [
+    "plastic",
+    "paper_cardboard",
+    "metal",
+    "glass",
+    "cigarette",
+    "other"
+  ],
+  "models": {
+    "YOLO11n": {
+      "fp_per_frame": {
+        "0.10": 0.327,
+        "0.25": 0.036,
+        "0.40": 0.036,
+        "0.55": 0.0,
+        "0.70": 0.0
+      },
+      "total": {
+        "0.10": 18,
+        "0.25": 2,
+        "0.40": 2,
+        "0.55": 0,
+        "0.70": 0
+      },
+      "by_class_at_report_conf": {
+        "other": 1,
+        "plastic": 1
+      }
+    },
+    "FasterRCNN": {
+      "fp_per_frame": {
+        "0.10": 0.964,
+        "0.25": 0.236,
+        "0.40": 0.073,
+        "0.55": 0.036,
+        "0.70": 0.0
+      },
+      "total": {
+        "0.10": 53,
+        "0.25": 13,
+        "0.40": 4,
+        "0.55": 2,
+        "0.70": 0
+      },
+      "by_class_at_report_conf": {
+        "plastic": 12,
+        "paper_cardboard": 1
+      }
+    }
+  }
+}

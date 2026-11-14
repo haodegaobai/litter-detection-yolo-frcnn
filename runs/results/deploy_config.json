@@ -1,0 +1,208 @@
+{
+  "split": "test",
+  "classes": [
+    "plastic",
+    "paper_cardboard",
+    "metal",
+    "glass",
+    "cigarette",
+    "other"
+  ],
+  "configs": [
+    {
+      "config": "research \u00b7 6 classes \u00b7 conf 0.25",
+      "classes_kept": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "conf": 0.25,
+      "YOLO11n": {
+        "precision": 0.4121,
+        "recall": 0.2487,
+        "f1": 0.3102,
+        "tp": 190,
+        "fp": 271,
+        "fn": 574,
+        "n_det": 461
+      },
+      "FasterRCNN": {
+        "precision": 0.4066,
+        "recall": 0.2081,
+        "f1": 0.2753,
+        "tp": 159,
+        "fp": 232,
+        "fn": 605,
+        "n_det": 391
+      }
+    },
+    {
+      "config": "research \u00b7 6 classes \u00b7 conf 0.60",
+      "classes_kept": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "conf": 0.6,
+      "YOLO11n": {
+        "precision": 0.5845,
+        "recall": 0.1675,
+        "f1": 0.2604,
+        "tp": 128,
+        "fp": 91,
+        "fn": 636,
+        "n_det": 219
+      },
+      "FasterRCNN": {
+        "precision": 0.7209,
+        "recall": 0.0812,
+        "f1": 0.1459,
+        "tp": 62,
+        "fp": 24,
+        "fn": 702,
+        "n_det": 86
+      }
+    },
+    {
+      "config": "research \u00b7 3 classes \u00b7 conf 0.25",
+      "classes_kept": [
+        0,
+        1,
+        2
+      ],
+      "conf": 0.25,
+      "YOLO11n": {
+        "precision": 0.5,
+        "recall": 0.3922,
+        "f1": 0.4396,
+        "tp": 180,
+        "fp": 180,
+        "fn": 279,
+        "n_det": 360
+      },
+      "FasterRCNN": {
+        "precision": 0.4099,
+        "recall": 0.342,
+        "f1": 0.3729,
+        "tp": 157,
+        "fp": 226,
+        "fn": 302,
+        "n_det": 383
+      }
+    },
+    {
+      "config": "demo-safe \u00b7 3 classes \u00b7 conf 0.40",
+      "classes_kept": [
+        0,
+        1,
+        2
+      ],
+      "conf": 0.4,
+      "YOLO11n": {
+        "precision": 0.5861,
+        "recall": 0.3486,
+        "f1": 0.4372,
+        "tp": 160,
+        "fp": 113,
+        "fn": 299,
+        "n_det": 273
+      },
+      "FasterRCNN": {
+        "precision": 0.5735,
+        "recall": 0.2549,
+        "f1": 0.3529,
+        "tp": 117,
+        "fp": 87,
+        "fn": 342,
+        "n_det": 204
+      }
+    },
+    {
+      "config": "demo-safe \u00b7 3 classes \u00b7 conf 0.55",
+      "classes_kept": [
+        0,
+        1,
+        2
+      ],
+      "conf": 0.55,
+      "YOLO11n": {
+        "precision": 0.6239,
+        "recall": 0.2963,
+        "f1": 0.4018,
+        "tp": 136,
+        "fp": 82,
+        "fn": 323,
+        "n_det": 218
+      },
+      "FasterRCNN": {
+        "precision": 0.6724,
+        "recall": 0.1699,
+        "f1": 0.2713,
+        "tp": 78,
+        "fp": 38,
+        "fn": 381,
+        "n_det": 116
+      }
+    },
+    {
+      "config": "demo-safe \u00b7 3 classes \u00b7 conf 0.60",
+      "classes_kept": [
+        0,
+        1,
+        2
+      ],
+      "conf": 0.6,
+      "YOLO11n": {
+        "precision": 0.6429,
+        "recall": 0.2745,
+        "f1": 0.3847,
+        "tp": 126,
+        "fp": 70,
+        "fn": 333,
+        "n_det": 196
+      },
+      "FasterRCNN": {
+        "precision": 0.7209,
+        "recall": 0.1351,
+        "f1": 0.2275,
+        "tp": 62,
+        "fp": 24,
+        "fn": 397,
+        "n_det": 86
+      }
+    },
+    {
+      "config": "demo-safe \u00b7 3 classes \u00b7 conf 0.70",
+      "classes_kept": [
+        0,
+        1,
+        2
+      ],
+      "conf": 0.7,
+      "YOLO11n": {
+        "precision": 0.6644,
+        "recall": 0.2157,
+        "f1": 0.3257,
+        "tp": 99,
+        "fp": 50,
+        "fn": 360,
+        "n_det": 149
+      },
+      "FasterRCNN": {
+        "precision": 0.7708,
+        "recall": 0.0806,
+        "f1": 0.146,
+        "tp": 37,
+        "fp": 11,
+        "fn": 422,
+        "n_det": 48
+      }
+    }
+  ]
+}
